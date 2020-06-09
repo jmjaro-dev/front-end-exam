@@ -26,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
   },
   navBar: {
     width: "100%",
-    height: "330px",
+    height: "auto",
     maxWidth: 440,
     background: "#fff",
     backgroundImage: `url("${ HomeBG }")`,
@@ -75,6 +75,9 @@ const useStyles = makeStyles((theme) => ({
     width: "26px",
     height: "26px",
     marginRight: "4px"
+  },
+  gutter: {
+    marginBottom: "20px"
   }
 }));
 
@@ -130,6 +133,7 @@ const FixedNav = props => {
                 <img src={TransferIcon} alt="Transfer" className={classes.actionIcon} />
                 <span className={classes.actionLabel}>TRNS</span>
               </Grid>
+              <Grid item xs={12} className={classes.gutter}></Grid>
             </Grid>
           </Container>
         </AppBar>
