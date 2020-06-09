@@ -32,16 +32,18 @@ const useStyles = makeStyles((theme) => ({
   descContainer: {
     position: "relative",
     width: "100%",
-    maxHeight: "86px",
-    textAlign: "left"
+    maxHeight: "40px",
+    textAlign: "left",
+    whiteSpace: "nowrap"
   },
   desc: {
     position: "absolute",
-    top: 6,
+    top: "6px",
     right: 0,
+    width: "80%",
     backgroundColor: "#fff",
     borderRadius: "30px",
-    padding: "5px 15px 5px 50px",
+    padding: "5px 5px 5px 25px",
     zIndex: 0
   }
   
@@ -57,7 +59,7 @@ const TopButton = props => {
           OK
         </button> 
         <span className={classes.desc}>
-          Lorem ipsum dolor sit amet asdasdssa 
+          Lorem ipsum dolor sit amet asas
         </span>
       </Box>
     </Box>

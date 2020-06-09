@@ -77,7 +77,7 @@ const useStyles = makeStyles((theme) => ({
     marginRight: "4px"
   },
   gutter: {
-    marginBottom: "20px"
+    marginBottom: "10px"
   }
 }));
 
@@ -131,7 +131,7 @@ const FixedNav = props => {
               </Grid>
               <Grid item xs={3} className={classes.actionsContainer}>
                 <img src={TransferIcon} alt="Transfer" className={classes.actionIcon} />
-                <span className={classes.actionLabel}>TRNS</span>
+                <span className={classes.actionLabel}>TRN</span>
               </Grid>
               <Grid item xs={12} className={classes.gutter}></Grid>
             </Grid>
