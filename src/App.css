@@ -35,7 +35,7 @@ code {
   color: #46aef7 !important;
 }
 
-.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorPrimary.makeStyles-navBar-2.mui-fixed.MuiPaper-elevation0{
+.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorPrimary.mui-fixed.MuiPaper-elevation0{
   position: fixed;
   top: 0;
   left: 50%;
@@ -44,7 +44,7 @@ code {
   transform: translateX(-50%);
 }
 
-.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorPrimary.makeStyles-navBar-2.mui-fixed.MuiPaper-elevation4{ 
+.MuiPaper-root.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorPrimary.mui-fixed.MuiPaper-elevation4{ 
   position: fixed;
   top: 0;
   left: 50%;
